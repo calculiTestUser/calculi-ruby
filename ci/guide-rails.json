@@ -32,7 +32,7 @@
 					{
 						"name": "Print Env",
 						"definition": "Print Environment",
-						"command": "printenv | sort",
+						"command": "printenv | sort\necho testing",
 						"properties": null
 					},
 					{
@@ -69,10 +69,7 @@
 								"message": ""
 							}
 						],
-						"code_analysis": {
-							"publish": true,
-							"properties": []
-						},
+						"code_analysis": null,
 						"delete_instances": true
 					},
 					"on_failure": {
@@ -85,10 +82,7 @@
 								"message": ""
 							}
 						],
-						"code_analysis": {
-							"publish": true,
-							"properties": []
-						},
+						"code_analysis": null,
 						"delete_instances": true
 					},
 					"on_abort": {
@@ -101,10 +95,7 @@
 								"message": ""
 							}
 						],
-						"code_analysis": {
-							"publish": true,
-							"properties": []
-						},
+						"code_analysis": null,
 						"delete_instances": true
 					}
 				},
@@ -165,8 +156,8 @@
 							}
 						],
 						"code_analysis": {
-							"publish": true,
-							"properties": []
+							"publish": false,
+							"properties": null
 						},
 						"delete_instances": true
 					},
@@ -181,8 +172,8 @@
 							}
 						],
 						"code_analysis": {
-							"publish": true,
-							"properties": []
+							"publish": false,
+							"properties": null
 						},
 						"delete_instances": true
 					},
@@ -197,8 +188,8 @@
 							}
 						],
 						"code_analysis": {
-							"publish": true,
-							"properties": []
+							"publish": false,
+							"properties": null
 						},
 						"delete_instances": true
 					},
@@ -213,8 +204,8 @@
 							}
 						],
 						"code_analysis": {
-							"publish": true,
-							"properties": []
+							"publish": false,
+							"properties": null
 						},
 						"delete_instances": true
 					}
@@ -341,8 +332,8 @@
 							}
 						],
 						"code_analysis": {
-							"publish": true,
-							"properties": []
+							"publish": false,
+							"properties": null
 						},
 						"delete_instances": true
 					},
@@ -357,8 +348,8 @@
 							}
 						],
 						"code_analysis": {
-							"publish": true,
-							"properties": []
+							"publish": false,
+							"properties": null
 						},
 						"delete_instances": true
 					},
@@ -373,8 +364,8 @@
 							}
 						],
 						"code_analysis": {
-							"publish": true,
-							"properties": []
+							"publish": false,
+							"properties": null
 						},
 						"delete_instances": true
 					},
@@ -389,8 +380,8 @@
 							}
 						],
 						"code_analysis": {
-							"publish": true,
-							"properties": []
+							"publish": false,
+							"properties": null
 						},
 						"delete_instances": true
 					}
@@ -517,8 +508,8 @@
 							}
 						],
 						"code_analysis": {
-							"publish": true,
-							"properties": []
+							"publish": false,
+							"properties": null
 						},
 						"delete_instances": false
 					},
@@ -533,8 +524,8 @@
 							}
 						],
 						"code_analysis": {
-							"publish": true,
-							"properties": []
+							"publish": false,
+							"properties": null
 						},
 						"delete_instances": false
 					},
@@ -549,8 +540,8 @@
 							}
 						],
 						"code_analysis": {
-							"publish": true,
-							"properties": []
+							"publish": false,
+							"properties": null
 						},
 						"delete_instances": false
 					},
@@ -565,8 +556,8 @@
 							}
 						],
 						"code_analysis": {
-							"publish": true,
-							"properties": []
+							"publish": false,
+							"properties": null
 						},
 						"delete_instances": false
 					}
@@ -694,8 +685,8 @@
 							}
 						],
 						"code_analysis": {
-							"publish": true,
-							"properties": []
+							"publish": false,
+							"properties": null
 						},
 						"delete_instances": false
 					},
@@ -710,8 +701,8 @@
 							}
 						],
 						"code_analysis": {
-							"publish": true,
-							"properties": []
+							"publish": false,
+							"properties": null
 						},
 						"delete_instances": false
 					},
@@ -726,8 +717,8 @@
 							}
 						],
 						"code_analysis": {
-							"publish": true,
-							"properties": []
+							"publish": false,
+							"properties": null
 						},
 						"delete_instances": false
 					},
@@ -742,8 +733,8 @@
 							}
 						],
 						"code_analysis": {
-							"publish": true,
-							"properties": []
+							"publish": false,
+							"properties": null
 						},
 						"delete_instances": false
 					}
